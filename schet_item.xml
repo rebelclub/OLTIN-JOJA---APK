@@ -1,0 +1,17 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="1"
+    android:rowCount="6">
+    <Button
+        android:id="@+id/btnOtd"
+        android:layout_width="@dimen/margin_80dp"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@drawable/btn_otdels"
+        android:text="@string/otdel_1"
+        android:layout_weight="1"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

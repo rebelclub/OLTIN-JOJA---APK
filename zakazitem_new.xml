@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvzNN_new"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/num_new"
+            android:textSize="@dimen/titletext" />
+
+        <TextView
+            android:id="@+id/tvzNaim_new"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="4dp"
+            android:textAlignment="textStart"
+            android:singleLine="true"
+            android:text="New Text"
+            android:textSize="@dimen/titletext"
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/tvzKolvo_new"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/count"
+            android:textSize="@dimen/titletext" />
+
+        <TextView
+            android:id="@+id/tvzSumm_new"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/summ"
+            android:gravity="end"
+            android:textSize="@dimen/titletext"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/tvzEditComment_new"
+            android:layout_weight="0.5"
+            android:src="@drawable/draw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvzComment_new"
+        android:paddingHorizontal="18dp"
+        android:text="@string/comment"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/button_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+</LinearLayout>
